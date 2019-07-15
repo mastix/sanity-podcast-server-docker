@@ -4,6 +4,14 @@
 
 This is the containerized version of the [Sanity Podcast Server](hhttps://raw.githubusercontent.com/kmelve/sanity-podcast-server) built on an alpine image. It's ready to be deployed on any docker host.
 
+# Installation
+
+The easiest way is to run the following command:
+
+`docker run --name sanity-podcast-server -p 8888:8888 mastixmc/sanity-podcast-server-docker`
+
+# Important
+
 This README will be updated once the Docker image is considered stable.
 
-*This project is currently not related to the official Sanity Podcast Server, so please make sure to create issues and pull request in the correct repository!*
+**This project is currently not related to the official Sanity Podcast Server, so please make sure to create issues and pull request in the correct repository!**
