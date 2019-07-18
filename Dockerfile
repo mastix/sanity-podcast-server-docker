@@ -14,7 +14,7 @@ RUN apk add --no-cache git
 RUN echo "unsafe-perm = true" >> ~/.npmrc
 RUN npm cache clean --force
 RUN npm cache verify
-RUN git clone https://github.com/kmelve/sanity-podcast-server.git /opt/sanity-podcast-server
+RUN git clone https://github.com/mastix/sanity-podcast-server.git /opt/sanity-podcast-server
 RUN npm install
 
 EXPOSE 8888
